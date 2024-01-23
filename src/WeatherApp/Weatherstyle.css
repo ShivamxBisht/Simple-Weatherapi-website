@@ -1,0 +1,35 @@
+.container {
+  width: 600px;
+  height: 530px;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 8px;
+  background-color: orange;
+  padding: 10px;
+}
+.top-bar input{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: red;
+    font-weight: bold;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.data{
+    font-size: 15px;
+    font-weight: 600;
+}
